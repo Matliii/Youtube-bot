@@ -5,6 +5,7 @@ import requests
 import collections
 import random
 import operator
+import sys 
 
 #User you want get subs from:
 USER_NAME = Name
@@ -44,6 +45,7 @@ def get_new_twitch_token():
         return resp.json()["access_token"]
     else:
         print("Renewing twitch token failed")
+        sys.exit()
 
 
 #Gets USER_ID by using the USER_NAME
