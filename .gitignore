@@ -3,3 +3,6 @@ config.ini
 
 # Ignore node_modules folder
 __pycache__
+
+# Ignore token
+token
