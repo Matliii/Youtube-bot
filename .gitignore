@@ -1,5 +1,5 @@
 # Ignore files related to API keys
-.ini
+config.ini
 
 # Ignore node_modules folder
 __pycache__
